@@ -1,0 +1,25 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const express_1 = require("express");
+const newsController_1 = require("@/controllers/admin/newsController");
+const auth_1 = require("@/middleware/auth");
+const admin_1 = require("@/middleware/admin");
+const router = (0, express_1.Router)();
+router.use(auth_1.authMiddleware);
+router.use(admin_1.adminMiddleware);
+router.get('/categories', newsController_1.getNewsCategories);
+router.post('/categories', newsController_1.createNewsCategory);
+router.put('/categories/:id', newsController_1.updateNewsCategory);
+router.delete('/categories/:id', newsController_1.deleteNewsCategory);
+router.get('/tags', newsController_1.getNewsTags);
+router.post('/tags', newsController_1.createNewsTag);
+router.put('/tags/:id', newsController_1.updateNewsTag);
+router.delete('/tags/:id', newsController_1.deleteNewsTag);
+router.get('/', newsController_1.getNews);
+router.get('/:id', newsController_1.getNewsById);
+router.post('/', newsController_1.createNews);
+router.put('/:id', newsController_1.updateNews);
+router.delete('/:id', newsController_1.deleteNews);
+router.post('/:id/publish', newsController_1.publishNews);
+exports.default = router;
+//# sourceMappingURL=news.js.map

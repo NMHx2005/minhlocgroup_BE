@@ -1,0 +1,25 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const express_1 = require("express");
+const userController_1 = require("@/controllers/admin/userController");
+const auth_1 = require("@/middleware/auth");
+const admin_1 = require("@/middleware/admin");
+const router = (0, express_1.Router)();
+router.use(auth_1.authMiddleware);
+router.use(admin_1.adminMiddleware);
+router.get('/', userController_1.getUsers);
+router.post('/', userController_1.createUser);
+router.get('/roles', userController_1.getRoles);
+router.post('/roles', userController_1.createRole);
+router.put('/roles/:id', userController_1.updateRole);
+router.delete('/roles/:id', userController_1.deleteRole);
+router.get('/permissions', userController_1.getPermissions);
+router.get('/activity-logs', userController_1.getActivityLogs);
+router.get('/activity-logs/:userId', userController_1.getActivityLogsByUser);
+router.delete('/activity-logs/cleanup', userController_1.cleanupActivityLogs);
+router.get('/:id', userController_1.getUserById);
+router.put('/:id', userController_1.updateUser);
+router.delete('/:id', userController_1.deleteUser);
+router.put('/:id/roles', userController_1.assignUserRoles);
+exports.default = router;
+//# sourceMappingURL=users.js.map

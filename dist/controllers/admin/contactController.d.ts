@@ -1,0 +1,21 @@
+import { Request, Response } from 'express';
+import { AuthRequest } from '@/middleware/auth';
+export declare const getContactMessages: (req: Request, res: Response) => Promise<void>;
+export declare const getContactMessageById: (req: Request, res: Response) => Promise<void>;
+export declare const createContactMessage: (req: AuthRequest, res: Response) => Promise<void>;
+export declare const updateContactMessage: (req: AuthRequest, res: Response) => Promise<void>;
+export declare const deleteContactMessage: (req: AuthRequest, res: Response) => Promise<void>;
+export declare const updateContactMessageStatus: (req: AuthRequest, res: Response) => Promise<void>;
+export declare const getNewsletterSubscribers: (req: Request, res: Response) => Promise<void>;
+export declare const createNewsletterSubscriber: (req: AuthRequest, res: Response) => Promise<void>;
+export declare const deleteNewsletterSubscriber: (req: AuthRequest, res: Response) => Promise<void>;
+export declare const getNewsletterCampaigns: (req: Request, res: Response) => Promise<void>;
+export declare const createNewsletterCampaign: (req: AuthRequest, res: Response) => Promise<void>;
+export declare const sendNewsletterCampaign: (req: Request, res: Response) => Promise<void>;
+export declare const getConsultationRequests: (req: Request, res: Response) => Promise<void>;
+export declare const getConsultationRequestById: (req: Request, res: Response) => Promise<void>;
+export declare const createConsultationRequest: (req: AuthRequest, res: Response) => Promise<void>;
+export declare const updateConsultationRequest: (req: AuthRequest, res: Response) => Promise<void>;
+export declare const assignConsultationRequest: (req: AuthRequest, res: Response) => Promise<void>;
+export declare const updateConsultationRequestStatus: (req: AuthRequest, res: Response) => Promise<void>;
+//# sourceMappingURL=contactController.d.ts.map

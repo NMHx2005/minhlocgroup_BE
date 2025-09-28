@@ -1,0 +1,24 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const express_1 = require("express");
+const productController_1 = require("@/controllers/admin/productController");
+const auth_1 = require("@/middleware/auth");
+const admin_1 = require("@/middleware/admin");
+const router = (0, express_1.Router)();
+router.use(auth_1.authMiddleware);
+router.use(admin_1.adminMiddleware);
+router.get('/categories', productController_1.getCategories);
+router.post('/categories', productController_1.createCategory);
+router.put('/categories/:id', productController_1.updateCategory);
+router.delete('/categories/:id', productController_1.deleteCategory);
+router.get('/origins', productController_1.getOrigins);
+router.post('/origins', productController_1.createOrigin);
+router.put('/origins/:id', productController_1.updateOrigin);
+router.delete('/origins/:id', productController_1.deleteOrigin);
+router.get('/', productController_1.getProducts);
+router.get('/:id', productController_1.getProductById);
+router.post('/', productController_1.createProduct);
+router.put('/:id', productController_1.updateProduct);
+router.delete('/:id', productController_1.deleteProduct);
+exports.default = router;
+//# sourceMappingURL=products.js.map

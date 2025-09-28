@@ -1,0 +1,16 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const express_1 = require("express");
+const productController_1 = require("@/controllers/client/productController");
+const router = (0, express_1.Router)();
+router.get('/', productController_1.getProducts);
+router.get('/featured', productController_1.getFeaturedProducts);
+router.get('/search', productController_1.searchProducts);
+router.get('/categories', productController_1.getCategories);
+router.get('/origins', productController_1.getOrigins);
+router.get('/category/:categoryId', productController_1.getProductsByCategory);
+router.get('/origin/:originId', productController_1.getProductsByOrigin);
+router.get('/:id', productController_1.getProductById);
+router.get('/slug/:slug', productController_1.getProductBySlug);
+exports.default = router;
+//# sourceMappingURL=products.js.map

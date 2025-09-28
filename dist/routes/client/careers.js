@@ -1,0 +1,14 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const express_1 = require("express");
+const careersController_1 = require("@/controllers/client/careersController");
+const rateLimit_1 = require("@/middleware/rateLimit");
+const database_1 = require("@/middleware/database");
+const router = (0, express_1.Router)();
+router.get('/', database_1.checkDatabaseConnection, careersController_1.getJobPositions);
+router.get('/departments', careersController_1.getDepartments);
+router.get('/id/:id', database_1.checkDatabaseConnection, careersController_1.getJobPositionById);
+router.get('/:slug', database_1.checkDatabaseConnection, careersController_1.getJobPositionBySlug);
+router.post('/apply', rateLimit_1.contactLimiter, database_1.checkDatabaseConnection, careersController_1.submitJobApplication);
+exports.default = router;
+//# sourceMappingURL=careers.js.map

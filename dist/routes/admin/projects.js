@@ -1,0 +1,21 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const express_1 = require("express");
+const projectController_1 = require("@/controllers/admin/projectController");
+const auth_1 = require("@/middleware/auth");
+const admin_1 = require("@/middleware/admin");
+const upload_1 = require("@/middleware/upload");
+const router = (0, express_1.Router)();
+router.use(auth_1.authMiddleware);
+router.use(admin_1.adminMiddleware);
+router.get('/', projectController_1.getProjects);
+router.get('/types', projectController_1.getProjectTypes);
+router.get('/:id', projectController_1.getProjectById);
+router.post('/', projectController_1.createProject);
+router.put('/:id', projectController_1.updateProject);
+router.delete('/:id', projectController_1.deleteProject);
+router.post('/:id/gallery', upload_1.upload.array('images', 10), projectController_1.uploadGalleryImages);
+router.post('/:id/gallery/url', projectController_1.addGalleryImageUrl);
+router.delete('/:id/gallery/:imageId', projectController_1.deleteGalleryImage);
+exports.default = router;
+//# sourceMappingURL=projects.js.map

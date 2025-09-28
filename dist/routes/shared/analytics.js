@@ -1,0 +1,23 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const express_1 = require("express");
+const analyticsController_1 = require("@/controllers/shared/analyticsController");
+const auth_1 = require("@/middleware/auth");
+const admin_1 = require("@/middleware/admin");
+const router = (0, express_1.Router)();
+router.use(auth_1.authMiddleware);
+router.use(admin_1.adminMiddleware);
+router.get('/overview', analyticsController_1.getAnalyticsOverview);
+router.get('/page-views', analyticsController_1.getPageViewsAnalytics);
+router.get('/unique-visitors', analyticsController_1.getUniqueVisitorsAnalytics);
+router.get('/bounce-rate', analyticsController_1.getBounceRateAnalytics);
+router.get('/session-duration', analyticsController_1.getSessionDurationAnalytics);
+router.get('/top-pages', analyticsController_1.getTopPagesAnalytics);
+router.get('/traffic-sources', analyticsController_1.getTrafficSourcesAnalytics);
+router.get('/devices', analyticsController_1.getDeviceAnalytics);
+router.get('/locations', analyticsController_1.getLocationAnalytics);
+router.get('/real-time', analyticsController_1.getRealTimeAnalytics);
+router.get('/custom', analyticsController_1.getCustomAnalytics);
+router.post('/track', analyticsController_1.trackPageView);
+exports.default = router;
+//# sourceMappingURL=analytics.js.map

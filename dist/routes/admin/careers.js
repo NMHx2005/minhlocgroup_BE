@@ -1,0 +1,23 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const express_1 = require("express");
+const careersController_1 = require("@/controllers/admin/careersController");
+const auth_1 = require("@/middleware/auth");
+const admin_1 = require("@/middleware/admin");
+const rateLimit_1 = require("@/middleware/rateLimit");
+const router = (0, express_1.Router)();
+router.use(auth_1.authMiddleware);
+router.use(admin_1.adminMiddleware);
+router.get('/positions', careersController_1.getJobPositions);
+router.get('/positions/:id', careersController_1.getJobPositionById);
+router.post('/positions', careersController_1.createJobPosition);
+router.put('/positions/:id', careersController_1.updateJobPosition);
+router.delete('/positions/:id', careersController_1.deleteJobPosition);
+router.get('/applications', careersController_1.getJobApplications);
+router.get('/applications/:id', careersController_1.getJobApplicationById);
+router.put('/applications/:id/status', careersController_1.updateJobApplicationStatus);
+router.get('/statistics', careersController_1.getCareersStatistics);
+router.get('/departments', careersController_1.getDepartments);
+router.post('/apply', rateLimit_1.contactLimiter, careersController_1.submitJobApplication);
+exports.default = router;
+//# sourceMappingURL=careers.js.map

@@ -1,0 +1,16 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const express_1 = require("express");
+const dashboardController_1 = require("@/controllers/admin/dashboardController");
+const auth_1 = require("@/middleware/auth");
+const admin_1 = require("@/middleware/admin");
+const router = (0, express_1.Router)();
+router.use(auth_1.authMiddleware);
+router.use(admin_1.adminMiddleware);
+router.get('/overview', dashboardController_1.getOverview);
+router.get('/revenue-chart', dashboardController_1.getRevenueChart);
+router.get('/project-progress', dashboardController_1.getProjectProgress);
+router.get('/top-performers', dashboardController_1.getTopPerformers);
+router.get('/recent-activity', dashboardController_1.getRecentActivity);
+exports.default = router;
+//# sourceMappingURL=dashboard.js.map

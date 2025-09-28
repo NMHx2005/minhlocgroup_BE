@@ -1,0 +1,18 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const express_1 = require("express");
+const businessFieldController_1 = require("@/controllers/admin/businessFieldController");
+const auth_1 = require("@/middleware/auth");
+const admin_1 = require("@/middleware/admin");
+const router = (0, express_1.Router)();
+router.use(auth_1.authMiddleware);
+router.use(admin_1.adminMiddleware);
+router.get('/', businessFieldController_1.getBusinessFields);
+router.get('/:id', businessFieldController_1.getBusinessFieldById);
+router.post('/', businessFieldController_1.createBusinessField);
+router.put('/:id', businessFieldController_1.updateBusinessField);
+router.delete('/:id', businessFieldController_1.deleteBusinessField);
+router.put('/sort', businessFieldController_1.updateBusinessFieldSortOrder);
+router.put('/:id/toggle-status', businessFieldController_1.toggleBusinessFieldStatus);
+exports.default = router;
+//# sourceMappingURL=businessFields.js.map

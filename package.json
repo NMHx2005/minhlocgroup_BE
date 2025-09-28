@@ -4,7 +4,7 @@
   "description": "MinhLoc Group Backend API",
   "main": "dist/server.js",
   "scripts": {
-    "start": "node dist/server.js",
+    "start": "node -r tsconfig-paths/register dist/server.js",
     "build": "tsc",
     "dev": "nodemon src/server.ts",
     "clean": "rimraf dist",
@@ -58,7 +58,8 @@
     "nodemailer": "^6.9.15",
     "slugify": "^1.6.6",
     "swagger-jsdoc": "^6.2.8",
-    "swagger-ui-express": "^5.0.1"
+    "swagger-ui-express": "^5.0.1",
+    "tsconfig-paths": "^4.2.0"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^8.44.0",
@@ -68,7 +69,6 @@
     "prettier": "^3.6.2",
     "rimraf": "^6.0.1",
     "ts-node": "^10.9.2",
-    "tsconfig-paths": "^4.2.0",
     "typescript": "^5.9.2"
   }
 }

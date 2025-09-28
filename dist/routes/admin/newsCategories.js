@@ -21,4 +21,3 @@ router.patch('/:id/toggle-status', newsCategoryController_1.toggleCategoryStatus
 router.put('/sort-order', newsCategoryController_1.updateSortOrder);
 router.delete('/:id', newsCategoryController_1.deleteNewsCategory);
 exports.default = router;
-//# sourceMappingURL=newsCategories.js.map

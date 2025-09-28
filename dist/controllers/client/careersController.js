@@ -102,4 +102,3 @@ const getDepartments = async (req, res) => {
     }
 };
 exports.getDepartments = getDepartments;
-//# sourceMappingURL=careersController.js.map

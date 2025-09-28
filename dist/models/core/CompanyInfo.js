@@ -314,4 +314,3 @@ CompanyInfoSchema.statics.findActiveSections = function () {
 };
 const CompanyInfo = mongoose_1.default.model('CompanyInfo', CompanyInfoSchema);
 exports.default = CompanyInfo;
-//# sourceMappingURL=CompanyInfo.js.map

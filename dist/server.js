@@ -40,4 +40,3 @@ const startServer = async () => {
     }
 };
 startServer();
-//# sourceMappingURL=server.js.map

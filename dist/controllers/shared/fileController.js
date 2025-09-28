@@ -189,4 +189,3 @@ const getFileStats = async (req, res) => {
     }
 };
 exports.getFileStats = getFileStats;
-//# sourceMappingURL=fileController.js.map

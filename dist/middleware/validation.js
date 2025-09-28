@@ -257,4 +257,3 @@ exports.validateCreateNewsCategory = [
         .withMessage('Thứ tự sắp xếp phải là số nguyên không âm'),
     exports.validateRequest
 ];
-//# sourceMappingURL=validation.js.map

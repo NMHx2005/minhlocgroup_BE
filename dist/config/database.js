@@ -48,4 +48,3 @@ const disconnectDatabase = async () => {
 };
 exports.disconnectDatabase = disconnectDatabase;
 exports.default = exports.databaseConfig;
-//# sourceMappingURL=database.js.map

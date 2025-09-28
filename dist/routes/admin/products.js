@@ -21,4 +21,3 @@ router.post('/', productController_1.createProduct);
 router.put('/:id', productController_1.updateProduct);
 router.delete('/:id', productController_1.deleteProduct);
 exports.default = router;
-//# sourceMappingURL=products.js.map

@@ -479,4 +479,3 @@ const updateConsultationRequestStatus = async (req, res) => {
     }
 };
 exports.updateConsultationRequestStatus = updateConsultationRequestStatus;
-//# sourceMappingURL=contactController.js.map

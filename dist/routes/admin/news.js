@@ -22,4 +22,3 @@ router.put('/:id', newsController_1.updateNews);
 router.delete('/:id', newsController_1.deleteNews);
 router.post('/:id/publish', newsController_1.publishNews);
 exports.default = router;
-//# sourceMappingURL=news.js.map

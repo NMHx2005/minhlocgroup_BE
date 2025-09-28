@@ -13,4 +13,3 @@ router.get('/origin/:originId', productController_1.getProductsByOrigin);
 router.get('/:id', productController_1.getProductById);
 router.get('/slug/:slug', productController_1.getProductBySlug);
 exports.default = router;
-//# sourceMappingURL=products.js.map

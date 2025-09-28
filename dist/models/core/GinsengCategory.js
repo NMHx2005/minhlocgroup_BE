@@ -195,4 +195,3 @@ GinsengCategorySchema.statics.getCategoryTree = async function () {
 };
 const GinsengCategory = mongoose_1.default.model('GinsengCategory', GinsengCategorySchema);
 exports.default = GinsengCategory;
-//# sourceMappingURL=GinsengCategory.js.map

@@ -29,4 +29,3 @@ const adminMiddleware = (req, res, next) => {
     }
 };
 exports.adminMiddleware = adminMiddleware;
-//# sourceMappingURL=admin.js.map

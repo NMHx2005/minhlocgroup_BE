@@ -133,4 +133,3 @@ PermissionSchema.pre('save', function (next) {
 });
 const Permission = mongoose_1.default.model('Permission', PermissionSchema);
 exports.default = Permission;
-//# sourceMappingURL=Permission.js.map

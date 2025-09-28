@@ -398,4 +398,3 @@ ConsultationRequestSchema.methods.addNote = function (note) {
 };
 const ConsultationRequest = mongoose_1.default.model('ConsultationRequest', ConsultationRequestSchema);
 exports.default = ConsultationRequest;
-//# sourceMappingURL=ConsultationRequest.js.map

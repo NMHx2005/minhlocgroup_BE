@@ -240,4 +240,3 @@ const submitJobApplication = async (req, res) => {
     }
 };
 exports.submitJobApplication = submitJobApplication;
-//# sourceMappingURL=careersController.js.map

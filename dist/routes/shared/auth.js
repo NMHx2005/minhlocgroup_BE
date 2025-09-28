@@ -17,4 +17,3 @@ router.post('/change-password', authController_1.changePassword);
 router.get('/profile', authController_1.getProfile);
 router.put('/profile', authController_1.updateProfile);
 exports.default = router;
-//# sourceMappingURL=auth.js.map

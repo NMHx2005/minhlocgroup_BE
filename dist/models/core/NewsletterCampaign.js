@@ -376,4 +376,3 @@ NewsletterCampaignSchema.methods.updateRecipients = function (updates) {
 };
 const NewsletterCampaign = mongoose_1.default.model('NewsletterCampaign', NewsletterCampaignSchema);
 exports.default = NewsletterCampaign;
-//# sourceMappingURL=NewsletterCampaign.js.map

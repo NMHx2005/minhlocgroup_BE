@@ -128,4 +128,3 @@ const verifyNewsletterSubscription = async (req, res) => {
     }
 };
 exports.verifyNewsletterSubscription = verifyNewsletterSubscription;
-//# sourceMappingURL=contactController.js.map

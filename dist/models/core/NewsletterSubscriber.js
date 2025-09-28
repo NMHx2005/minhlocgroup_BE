@@ -287,4 +287,3 @@ NewsletterSubscriberSchema.methods.recordEmailClicked = function () {
 };
 const NewsletterSubscriber = mongoose_1.default.model('NewsletterSubscriber', NewsletterSubscriberSchema);
 exports.default = NewsletterSubscriber;
-//# sourceMappingURL=NewsletterSubscriber.js.map

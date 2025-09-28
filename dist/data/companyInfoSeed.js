@@ -376,4 +376,3 @@ exports.companyInfoSeedData = [
     }
 ];
 exports.default = exports.companyInfoSeedData;
-//# sourceMappingURL=companyInfoSeed.js.map

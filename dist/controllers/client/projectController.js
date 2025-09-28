@@ -174,4 +174,3 @@ const getProjectTypes = async (req, res) => {
     }
 };
 exports.getProjectTypes = getProjectTypes;
-//# sourceMappingURL=projectController.js.map

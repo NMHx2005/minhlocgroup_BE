@@ -17,4 +17,3 @@ const checkDatabaseConnection = (req, res, next) => {
     next();
 };
 exports.checkDatabaseConnection = checkDatabaseConnection;
-//# sourceMappingURL=database.js.map

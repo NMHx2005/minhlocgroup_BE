@@ -69,4 +69,3 @@ exports.companyService = {
         }
     }
 };
-//# sourceMappingURL=companyService.js.map

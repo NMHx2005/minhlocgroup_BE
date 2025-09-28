@@ -346,4 +346,3 @@ ActivityLogSchema.methods.addMetadata = function (metadata) {
 };
 const ActivityLog = mongoose_1.default.model('ActivityLog', ActivityLogSchema);
 exports.default = ActivityLog;
-//# sourceMappingURL=ActivityLog.js.map

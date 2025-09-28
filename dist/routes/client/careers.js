@@ -11,4 +11,3 @@ router.get('/id/:id', database_1.checkDatabaseConnection, careersController_1.ge
 router.get('/:slug', database_1.checkDatabaseConnection, careersController_1.getJobPositionBySlug);
 router.post('/apply', rateLimit_1.contactLimiter, database_1.checkDatabaseConnection, careersController_1.submitJobApplication);
 exports.default = router;
-//# sourceMappingURL=careers.js.map

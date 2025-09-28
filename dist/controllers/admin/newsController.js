@@ -350,4 +350,3 @@ const deleteNewsTag = async (req, res) => {
     }
 };
 exports.deleteNewsTag = deleteNewsTag;
-//# sourceMappingURL=newsController.js.map

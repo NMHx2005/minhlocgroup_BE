@@ -22,4 +22,3 @@ router.put('/:id', userController_1.updateUser);
 router.delete('/:id', userController_1.deleteUser);
 router.put('/:id/roles', userController_1.assignUserRoles);
 exports.default = router;
-//# sourceMappingURL=users.js.map

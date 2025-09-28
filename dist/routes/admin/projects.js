@@ -18,4 +18,3 @@ router.post('/:id/gallery', upload_1.upload.array('images', 10), projectControll
 router.post('/:id/gallery/url', projectController_1.addGalleryImageUrl);
 router.delete('/:id/gallery/:imageId', projectController_1.deleteGalleryImage);
 exports.default = router;
-//# sourceMappingURL=projects.js.map

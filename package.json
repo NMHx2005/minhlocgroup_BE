@@ -1,13 +1,14 @@
 {
   "name": "backend_minhloc",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "MinhLoc Group Backend API",
+  "main": "dist/server.js",
   "scripts": {
     "start": "node dist/server.js",
     "build": "tsc",
     "dev": "nodemon src/server.ts",
     "clean": "rimraf dist",
+    "build:clean": "npm run clean && npm run build",
     "lint": "eslint src/**/*.ts",
     "lint:fix": "eslint src/**/*.ts --fix",
     "format": "prettier --write src/**/*.ts",
@@ -17,10 +18,14 @@
     "seed:dev": "ts-node -r tsconfig-paths/register src/scripts/seedData.ts",
     "seed:company": "ts-node -r tsconfig-paths/register src/scripts/seedCompanyInfo.ts"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["api", "backend", "minhloc"],
+  "author": "MinhLoc Group",
   "license": "ISC",
   "type": "commonjs",
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  },
   "dependencies": {
     "@types/mongoose": "^5.11.96",
     "bcryptjs": "^3.0.2",

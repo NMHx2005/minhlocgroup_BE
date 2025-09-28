@@ -20,4 +20,3 @@ const getCompanyInfo = async (req, res) => {
     }
 };
 exports.getCompanyInfo = getCompanyInfo;
-//# sourceMappingURL=companyController.js.map

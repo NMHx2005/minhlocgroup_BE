@@ -115,4 +115,3 @@ RoleSchema.pre('save', function (next) {
 });
 const Role = mongoose_1.default.model('Role', RoleSchema);
 exports.default = Role;
-//# sourceMappingURL=Role.js.map

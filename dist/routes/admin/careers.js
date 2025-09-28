@@ -20,4 +20,3 @@ router.get('/statistics', careersController_1.getCareersStatistics);
 router.get('/departments', careersController_1.getDepartments);
 router.post('/apply', rateLimit_1.contactLimiter, careersController_1.submitJobApplication);
 exports.default = router;
-//# sourceMappingURL=careers.js.map

@@ -256,4 +256,3 @@ SystemSettingSchema.methods.setValue = function (value, updatedBy) {
 };
 const SystemSetting = mongoose_1.default.model('SystemSetting', SystemSettingSchema);
 exports.default = SystemSetting;
-//# sourceMappingURL=SystemSetting.js.map

@@ -9,4 +9,3 @@ router.post('/newsletter-subscribers', contactController_1.subscribeNewsletter);
 router.delete('/newsletter-subscribers/:email', contactController_1.unsubscribeNewsletter);
 router.get('/newsletter-subscribers/verify/:token', contactController_1.verifyNewsletterSubscription);
 exports.default = router;
-//# sourceMappingURL=contacts.js.map

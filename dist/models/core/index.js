@@ -54,4 +54,3 @@ var JobApplication_1 = require("./JobApplication");
 Object.defineProperty(exports, "JobApplication", { enumerable: true, get: function () { return __importDefault(JobApplication_1).default; } });
 var BusinessField_1 = require("./BusinessField");
 Object.defineProperty(exports, "BusinessField", { enumerable: true, get: function () { return __importDefault(BusinessField_1).default; } });
-//# sourceMappingURL=index.js.map

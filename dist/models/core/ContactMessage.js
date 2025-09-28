@@ -337,4 +337,3 @@ ContactMessageSchema.methods.addReply = function (message, repliedBy) {
 };
 const ContactMessage = mongoose_1.default.model('ContactMessage', ContactMessageSchema);
 exports.default = ContactMessage;
-//# sourceMappingURL=ContactMessage.js.map

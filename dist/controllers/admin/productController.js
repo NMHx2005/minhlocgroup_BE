@@ -301,4 +301,3 @@ const deleteOrigin = async (req, res) => {
     }
 };
 exports.deleteOrigin = deleteOrigin;
-//# sourceMappingURL=productController.js.map

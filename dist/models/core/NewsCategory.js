@@ -138,4 +138,3 @@ NewsCategorySchema.statics.getCategoryStats = function () {
 };
 const NewsCategory = mongoose_1.default.model('NewsCategory', NewsCategorySchema);
 exports.default = NewsCategory;
-//# sourceMappingURL=NewsCategory.js.map

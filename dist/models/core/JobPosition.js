@@ -291,4 +291,3 @@ JobPositionSchema.statics.searchPositions = function (query) {
 };
 const JobPosition = mongoose_1.default.model('JobPosition', JobPositionSchema);
 exports.default = JobPosition;
-//# sourceMappingURL=JobPosition.js.map

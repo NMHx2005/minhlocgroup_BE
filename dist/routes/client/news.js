@@ -14,4 +14,3 @@ router.get('/:id', newsController_1.getNewsById);
 router.get('/slug/:slug', newsController_1.getNewsBySlug);
 router.get('/:id/related', newsController_1.getRelatedNews);
 exports.default = router;
-//# sourceMappingURL=news.js.map

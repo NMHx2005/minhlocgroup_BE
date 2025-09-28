@@ -340,4 +340,3 @@ StaticPageSchema.methods.addToHeader = function () {
 };
 const StaticPage = mongoose_1.default.model('StaticPage', StaticPageSchema);
 exports.default = StaticPage;
-//# sourceMappingURL=StaticPage.js.map

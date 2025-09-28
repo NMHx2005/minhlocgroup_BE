@@ -27,4 +27,3 @@ const seedCompanyInfo = async () => {
     }
 };
 seedCompanyInfo();
-//# sourceMappingURL=seedCompanyInfo.js.map

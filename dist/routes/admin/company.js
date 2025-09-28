@@ -12,4 +12,3 @@ router.post('/info', companyController_1.createOrUpdateCompanyInfo);
 router.delete('/info/:id', companyController_1.deleteCompanyInfo);
 router.put('/info/sort', companyController_1.updateCompanyInfoSortOrder);
 exports.default = router;
-//# sourceMappingURL=company.js.map

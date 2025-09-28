@@ -445,4 +445,3 @@ if (require.main === module) {
     });
 }
 exports.default = seedDatabase;
-//# sourceMappingURL=seedData.js.map

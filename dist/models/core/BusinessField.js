@@ -260,4 +260,3 @@ BusinessFieldSchema.statics.searchFields = function (query) {
 };
 const BusinessField = mongoose_1.default.model('BusinessField', BusinessFieldSchema);
 exports.default = BusinessField;
-//# sourceMappingURL=BusinessField.js.map

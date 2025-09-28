@@ -15,4 +15,3 @@ router.delete('/:id', businessFieldController_1.deleteBusinessField);
 router.put('/sort', businessFieldController_1.updateBusinessFieldSortOrder);
 router.put('/:id/toggle-status', businessFieldController_1.toggleBusinessFieldStatus);
 exports.default = router;
-//# sourceMappingURL=businessFields.js.map

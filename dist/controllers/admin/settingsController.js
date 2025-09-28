@@ -525,4 +525,3 @@ const deleteSocialLink = async (req, res) => {
     }
 };
 exports.deleteSocialLink = deleteSocialLink;
-//# sourceMappingURL=settingsController.js.map

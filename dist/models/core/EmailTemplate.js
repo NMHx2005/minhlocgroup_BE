@@ -348,4 +348,3 @@ EmailTemplateSchema.methods.clone = function (newName, createdBy) {
 };
 const EmailTemplate = mongoose_1.default.model('EmailTemplate', EmailTemplateSchema);
 exports.default = EmailTemplate;
-//# sourceMappingURL=EmailTemplate.js.map

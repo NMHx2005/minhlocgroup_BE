@@ -245,4 +245,3 @@ class NewsService {
     }
 }
 exports.newsService = new NewsService();
-//# sourceMappingURL=newsService.js.map

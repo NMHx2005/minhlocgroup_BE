@@ -143,4 +143,3 @@ const toggleBusinessFieldStatus = async (req, res) => {
     }
 };
 exports.toggleBusinessFieldStatus = toggleBusinessFieldStatus;
-//# sourceMappingURL=businessFieldController.js.map

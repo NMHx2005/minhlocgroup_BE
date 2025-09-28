@@ -45,4 +45,3 @@ const getBusinessFieldBySlug = async (req, res) => {
     }
 };
 exports.getBusinessFieldBySlug = getBusinessFieldBySlug;
-//# sourceMappingURL=businessFieldController.js.map

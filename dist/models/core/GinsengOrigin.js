@@ -157,4 +157,3 @@ GinsengOriginSchema.statics.searchOrigins = function (query) {
 };
 const GinsengOrigin = mongoose_1.default.model('GinsengOrigin', GinsengOriginSchema);
 exports.default = GinsengOrigin;
-//# sourceMappingURL=GinsengOrigin.js.map

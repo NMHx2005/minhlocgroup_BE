@@ -204,4 +204,3 @@ JobApplicationSchema.statics.getStatistics = function () {
 };
 const JobApplication = mongoose_1.default.model('JobApplication', JobApplicationSchema);
 exports.default = JobApplication;
-//# sourceMappingURL=JobApplication.js.map

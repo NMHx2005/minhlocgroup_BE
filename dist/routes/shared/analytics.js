@@ -20,4 +20,3 @@ router.get('/real-time', analyticsController_1.getRealTimeAnalytics);
 router.get('/custom', analyticsController_1.getCustomAnalytics);
 router.post('/track', analyticsController_1.trackPageView);
 exports.default = router;
-//# sourceMappingURL=analytics.js.map

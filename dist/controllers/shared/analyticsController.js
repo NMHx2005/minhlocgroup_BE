@@ -237,4 +237,3 @@ const getCustomAnalytics = async (req, res) => {
     }
 };
 exports.getCustomAnalytics = getCustomAnalytics;
-//# sourceMappingURL=analyticsController.js.map

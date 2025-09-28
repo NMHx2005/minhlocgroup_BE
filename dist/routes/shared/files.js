@@ -14,4 +14,3 @@ router.get('/:id', auth_1.authMiddleware, fileController_1.getFileById);
 router.delete('/:id', auth_1.authMiddleware, fileController_1.deleteFile);
 router.get('/:id/download', auth_1.authMiddleware, fileController_1.downloadFile);
 exports.default = router;
-//# sourceMappingURL=files.js.map

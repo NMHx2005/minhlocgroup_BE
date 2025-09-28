@@ -70,4 +70,3 @@ if (require.main === module) {
     });
 }
 exports.default = fixBusinessFieldImages;
-//# sourceMappingURL=fixBusinessFieldImages.js.map

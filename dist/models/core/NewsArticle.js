@@ -363,4 +363,3 @@ NewsArticleSchema.methods.incrementShare = function () {
 };
 const NewsArticle = mongoose_1.default.model('NewsArticle', NewsArticleSchema);
 exports.default = NewsArticle;
-//# sourceMappingURL=NewsArticle.js.map

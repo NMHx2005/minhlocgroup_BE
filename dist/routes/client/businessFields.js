@@ -6,4 +6,3 @@ const router = (0, express_1.Router)();
 router.get('/', businessFieldController_1.getBusinessFields);
 router.get('/:slug', businessFieldController_1.getBusinessFieldBySlug);
 exports.default = router;
-//# sourceMappingURL=businessFields.js.map

@@ -13,4 +13,3 @@ router.get('/project-progress', dashboardController_1.getProjectProgress);
 router.get('/top-performers', dashboardController_1.getTopPerformers);
 router.get('/recent-activity', dashboardController_1.getRecentActivity);
 exports.default = router;
-//# sourceMappingURL=dashboard.js.map

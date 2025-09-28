@@ -251,4 +251,3 @@ const updateSortOrder = async (req, res) => {
     }
 };
 exports.updateSortOrder = updateSortOrder;
-//# sourceMappingURL=newsCategoryController.js.map

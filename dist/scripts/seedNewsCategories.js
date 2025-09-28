@@ -82,4 +82,3 @@ if (require.main === module) {
     seedNewsCategories();
 }
 exports.default = seedNewsCategories;
-//# sourceMappingURL=seedNewsCategories.js.map

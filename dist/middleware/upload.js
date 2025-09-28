@@ -73,4 +73,3 @@ exports.uploadVideo = (0, multer_1.default)({
         }
     }
 });
-//# sourceMappingURL=upload.js.map

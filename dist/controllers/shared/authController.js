@@ -233,4 +233,3 @@ const resendVerification = async (req, res) => {
     }
 };
 exports.resendVerification = resendVerification;
-//# sourceMappingURL=authController.js.map

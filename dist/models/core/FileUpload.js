@@ -316,4 +316,3 @@ FileUploadSchema.methods.setPublic = function (isPublic) {
 };
 const FileUpload = mongoose_1.default.model('FileUpload', FileUploadSchema);
 exports.default = FileUpload;
-//# sourceMappingURL=FileUpload.js.map

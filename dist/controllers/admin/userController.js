@@ -360,4 +360,3 @@ const cleanupActivityLogs = async (req, res) => {
     }
 };
 exports.cleanupActivityLogs = cleanupActivityLogs;
-//# sourceMappingURL=userController.js.map

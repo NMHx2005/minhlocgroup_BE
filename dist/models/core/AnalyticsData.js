@@ -415,4 +415,3 @@ AnalyticsDataSchema.methods.markAsProcessed = function () {
 };
 const AnalyticsData = mongoose_1.default.model('AnalyticsData', AnalyticsDataSchema);
 exports.default = AnalyticsData;
-//# sourceMappingURL=AnalyticsData.js.map

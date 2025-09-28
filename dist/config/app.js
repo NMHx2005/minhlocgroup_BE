@@ -71,4 +71,3 @@ exports.appConfig = {
     },
 };
 exports.default = exports.appConfig;
-//# sourceMappingURL=app.js.map

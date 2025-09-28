@@ -94,4 +94,3 @@ const getRecentActivity = async (req, res) => {
     }
 };
 exports.getRecentActivity = getRecentActivity;
-//# sourceMappingURL=dashboardController.js.map

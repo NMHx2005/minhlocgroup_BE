@@ -11,4 +11,3 @@ router.get('/:id', projectController_1.getProjectById);
 router.get('/slug/:slug', projectController_1.getProjectBySlug);
 router.get('/:id/floor-plans', projectController_1.getProjectFloorPlans);
 exports.default = router;
-//# sourceMappingURL=projects.js.map

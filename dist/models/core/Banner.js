@@ -346,4 +346,3 @@ BannerSchema.methods.schedule = function (startDate, endDate) {
 };
 const Banner = mongoose_1.default.model('Banner', BannerSchema);
 exports.default = Banner;
-//# sourceMappingURL=Banner.js.map

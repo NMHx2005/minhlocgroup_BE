@@ -26,4 +26,3 @@ router.put('/consultation-requests/:id', contactController_1.updateConsultationR
 router.put('/consultation-requests/:id/assign', contactController_1.assignConsultationRequest);
 router.put('/consultation-requests/:id/status', contactController_1.updateConsultationRequestStatus);
 exports.default = router;
-//# sourceMappingURL=contacts.js.map

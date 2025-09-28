@@ -234,4 +234,3 @@ const getRelatedNews = async (req, res) => {
     }
 };
 exports.getRelatedNews = getRelatedNews;
-//# sourceMappingURL=newsController.js.map

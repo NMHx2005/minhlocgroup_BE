@@ -82,4 +82,3 @@ const updateCompanyInfoSortOrder = async (req, res) => {
     }
 };
 exports.updateCompanyInfoSortOrder = updateCompanyInfoSortOrder;
-//# sourceMappingURL=companyController.js.map

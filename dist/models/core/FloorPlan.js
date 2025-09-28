@@ -189,4 +189,3 @@ FloorPlanSchema.statics.findByBedrooms = function (bedrooms) {
 };
 const FloorPlan = mongoose_1.default.model('FloorPlan', FloorPlanSchema);
 exports.default = FloorPlan;
-//# sourceMappingURL=FloorPlan.js.map

@@ -32,4 +32,3 @@ router.post('/social-links', settingsController_1.createSocialLink);
 router.put('/social-links/:id', settingsController_1.updateSocialLink);
 router.delete('/social-links/:id', settingsController_1.deleteSocialLink);
 exports.default = router;
-//# sourceMappingURL=settings.js.map

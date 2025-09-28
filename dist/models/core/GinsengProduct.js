@@ -365,4 +365,3 @@ GinsengProductSchema.statics.findLowStockProducts = function (threshold = 10) {
 };
 const GinsengProduct = mongoose_1.default.model('GinsengProduct', GinsengProductSchema);
 exports.default = GinsengProduct;
-//# sourceMappingURL=GinsengProduct.js.map

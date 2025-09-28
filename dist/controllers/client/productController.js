@@ -216,4 +216,3 @@ const getOrigins = async (req, res) => {
     }
 };
 exports.getOrigins = getOrigins;
-//# sourceMappingURL=productController.js.map

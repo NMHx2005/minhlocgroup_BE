@@ -351,4 +351,3 @@ ProjectSchema.statics.findByAreaRange = function (minArea, maxArea) {
 };
 const Project = mongoose_1.default.model('Project', ProjectSchema);
 exports.default = Project;
-//# sourceMappingURL=Project.js.map

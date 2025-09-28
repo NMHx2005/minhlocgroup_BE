@@ -145,4 +145,3 @@ exports.newsCategoryService = {
     }
 };
 exports.default = exports.newsCategoryService;
-//# sourceMappingURL=newsCategoryService.js.map

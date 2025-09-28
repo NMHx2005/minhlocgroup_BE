@@ -1,5 +1,5 @@
 import { Request, Response } from 'express';
-import { analyticsService } from '@/services/shared/analyticsService';
+import { analyticsService } from '../../services/shared/analyticsService';
 
 /**
  * Get analytics overview

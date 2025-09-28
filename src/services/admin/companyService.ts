@@ -1,4 +1,4 @@
-import { CompanyInfo } from '@/models/core';
+import { CompanyInfo } from '../../models/core';
 import { Types } from 'mongoose';
 
 export const companyService = {

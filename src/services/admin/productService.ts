@@ -1,4 +1,4 @@
-import { GinsengProduct, GinsengCategory, GinsengOrigin } from '@/models/core';
+import { GinsengProduct, GinsengCategory, GinsengOrigin } from '../../models/core';
 
 export interface ProductFilters {
     search?: string;

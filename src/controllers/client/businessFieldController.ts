@@ -1,5 +1,5 @@
 import { Request, Response } from 'express';
-import { businessFieldService } from '@/services/client/businessFieldService';
+import { businessFieldService } from '../../services/client/businessFieldService';
 
 /**
  * Get business fields for public display

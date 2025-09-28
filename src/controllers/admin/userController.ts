@@ -1,6 +1,6 @@
 import { Request, Response } from 'express';
-import { AuthRequest } from '@/middleware/auth';
-import { userService } from '@/services/admin/userService';
+import { AuthRequest } from '../../middleware/auth';
+import { userService } from '../../services/admin/userService';
 
 /**
  * Get all users with pagination and filters

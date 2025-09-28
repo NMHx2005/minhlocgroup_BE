@@ -1,6 +1,6 @@
 import { Request, Response } from 'express';
-import { AuthRequest } from '@/middleware/auth';
-import { authService } from '@/services/shared/authService';
+import { AuthRequest } from '../../middleware/auth';
+import { authService } from '../../services/shared/authService';
 
 /**
  * User login

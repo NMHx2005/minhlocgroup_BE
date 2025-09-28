@@ -8,9 +8,9 @@ import {
     deleteFile,
     downloadFile,
     getFileStats
-} from '@/controllers/shared/fileController';
-import { authMiddleware } from '@/middleware/auth';
-import { upload } from '@/middleware/upload';
+} from '../../controllers/shared/fileController';
+import { authMiddleware } from '../../middleware/auth';
+import { upload } from '../../middleware/upload';
 
 const router = Router();
 

@@ -1,5 +1,5 @@
 import { Request, Response } from 'express';
-import { dashboardService } from '@/services/admin/dashboardService';
+import { dashboardService } from '../../services/admin/dashboardService';
 
 /**
  * Get dashboard overview statistics

@@ -2,8 +2,8 @@ import cors from 'cors';
 import helmet from 'helmet';
 import rateLimit from 'express-rate-limit';
 import { Request, Response, NextFunction } from 'express';
-import { appConfig } from '@/config/app';
-import { AppError } from '@/types';
+import { appConfig } from '../config/app';
+import { AppError } from '../types';
 
 /**
  * CORS configuration

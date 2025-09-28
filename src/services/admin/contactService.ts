@@ -1,4 +1,4 @@
-import { ContactMessage, NewsletterSubscriber, NewsletterCampaign, ConsultationRequest } from '@/models/core';
+import { ContactMessage, NewsletterSubscriber, NewsletterCampaign, ConsultationRequest } from '../../models/core';
 
 export interface ContactFilters {
     search?: string;

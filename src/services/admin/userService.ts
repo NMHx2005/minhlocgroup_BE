@@ -1,4 +1,4 @@
-import { User, Role, Permission, ActivityLog } from '@/models/core';
+import { User, Role, Permission, ActivityLog } from '../../models/core';
 
 export interface UserFilters {
     search?: string;

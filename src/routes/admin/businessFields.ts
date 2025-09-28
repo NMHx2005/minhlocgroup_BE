@@ -7,9 +7,9 @@ import {
     deleteBusinessField,
     updateBusinessFieldSortOrder,
     toggleBusinessFieldStatus
-} from '@/controllers/admin/businessFieldController';
-import { authMiddleware } from '@/middleware/auth';
-import { adminMiddleware } from '@/middleware/admin';
+} from '../../controllers/admin/businessFieldController';
+import { authMiddleware } from '../../middleware/auth';
+import { adminMiddleware } from '../../middleware/admin';
 
 const router = Router();
 

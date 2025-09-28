@@ -1,5 +1,5 @@
 import { Request, Response } from 'express';
-import { companyService } from '@/services/client/companyService';
+import { companyService } from '../../services/client/companyService';
 
 /**
  * Get company info for public display

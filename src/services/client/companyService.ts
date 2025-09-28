@@ -1,4 +1,4 @@
-import { CompanyInfo } from '@/models/core';
+import { CompanyInfo } from '../../models/core';
 
 export const companyService = {
     /**

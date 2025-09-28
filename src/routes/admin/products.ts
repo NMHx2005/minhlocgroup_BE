@@ -13,9 +13,9 @@ import {
     createOrigin,
     updateOrigin,
     deleteOrigin
-} from '@/controllers/admin/productController';
-import { authMiddleware } from '@/middleware/auth';
-import { adminMiddleware } from '@/middleware/admin';
+} from '../../controllers/admin/productController';
+import { authMiddleware } from '../../middleware/auth';
+import { adminMiddleware } from '../../middleware/admin';
 
 const router = Router();
 

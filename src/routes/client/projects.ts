@@ -7,7 +7,7 @@ import {
     getProjectFloorPlans,
     searchProjects,
     getProjectTypes
-} from '@/controllers/client/projectController';
+} from '../../controllers/client/projectController';
 
 const router = Router();
 

@@ -5,9 +5,9 @@ import {
     getJobPositionById,
     submitJobApplication,
     getDepartments
-} from '@/controllers/client/careersController';
-import { contactLimiter } from '@/middleware/rateLimit';
-import { checkDatabaseConnection } from '@/middleware/database';
+} from '../../controllers/client/careersController';
+import { contactLimiter } from '../../middleware/rateLimit';
+import { checkDatabaseConnection } from '../../middleware/database';
 
 const router = Router();
 

@@ -23,10 +23,10 @@ import {
     createSocialLink,
     updateSocialLink,
     deleteSocialLink
-} from '@/controllers/admin/settingsController';
-import { authMiddleware } from '@/middleware/auth';
-import { adminMiddleware } from '@/middleware/admin';
-import { upload } from '@/middleware/upload';
+} from '../../controllers/admin/settingsController';
+import { authMiddleware } from '../../middleware/auth';
+import { adminMiddleware } from '../../middleware/admin';
+import { upload } from '../../middleware/upload';
 
 const router = Router();
 

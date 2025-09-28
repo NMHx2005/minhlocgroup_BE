@@ -18,9 +18,9 @@ import {
     updateConsultationRequest,
     assignConsultationRequest,
     updateConsultationRequestStatus
-} from '@/controllers/admin/contactController';
-import { authMiddleware } from '@/middleware/auth';
-import { adminMiddleware } from '@/middleware/admin';
+} from '../../controllers/admin/contactController';
+import { authMiddleware } from '../../middleware/auth';
+import { adminMiddleware } from '../../middleware/admin';
 
 const router = Router();
 

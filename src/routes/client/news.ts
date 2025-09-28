@@ -10,7 +10,7 @@ import {
     getNewsCategories,
     getNewsTags,
     getRelatedNews
-} from '@/controllers/client/newsController';
+} from '../../controllers/client/newsController';
 
 const router = Router();
 

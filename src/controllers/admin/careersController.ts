@@ -1,6 +1,6 @@
 import { Request, Response } from 'express';
-import { AuthRequest } from '@/middleware/auth';
-import { careersService } from '@/services/admin/careersService';
+import { AuthRequest } from '../../middleware/auth';
+import { careersService } from '../../services/admin/careersService';
 
 /**
  * Get all job positions

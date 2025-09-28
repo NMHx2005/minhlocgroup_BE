@@ -11,8 +11,8 @@ import {
     updateProfile,
     verifyEmail,
     resendVerification
-} from '@/controllers/shared/authController';
-import { authMiddleware } from '@/middleware/auth';
+} from '../../controllers/shared/authController';
+import { authMiddleware } from '../../middleware/auth';
 
 const router = Router();
 

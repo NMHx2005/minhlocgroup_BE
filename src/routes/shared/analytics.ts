@@ -12,9 +12,9 @@ import {
     getRealTimeAnalytics,
     trackPageView,
     getCustomAnalytics
-} from '@/controllers/shared/analyticsController';
-import { authMiddleware } from '@/middleware/auth';
-import { adminMiddleware } from '@/middleware/admin';
+} from '../../controllers/shared/analyticsController';
+import { authMiddleware } from '../../middleware/auth';
+import { adminMiddleware } from '../../middleware/admin';
 
 const router = Router();
 

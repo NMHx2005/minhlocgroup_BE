@@ -1,6 +1,6 @@
 import { Request, Response } from 'express';
-import { contactService } from '@/services/admin/contactService';
-import { AuthRequest } from '@/middleware/auth';
+import { contactService } from '../../services/admin/contactService';
+import { AuthRequest } from '../../middleware/auth';
 
 /**
  * Get all contact messages with pagination and filters

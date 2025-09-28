@@ -1,6 +1,6 @@
 import { Request, Response } from 'express';
-import { AuthRequest } from '@/middleware/auth';
-import { projectService } from '@/services/admin/projectService';
+import { AuthRequest } from '../../middleware/auth';
+import { projectService } from '../../services/admin/projectService';
 
 /**
  * Get all projects with pagination and filters

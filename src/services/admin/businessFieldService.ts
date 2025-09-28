@@ -1,4 +1,4 @@
-import { BusinessField } from '@/models/core';
+import { BusinessField } from '../../models/core';
 import { Types } from 'mongoose';
 
 export const businessFieldService = {

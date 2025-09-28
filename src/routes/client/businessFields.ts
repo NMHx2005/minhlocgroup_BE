@@ -2,7 +2,7 @@ import { Router } from 'express';
 import {
     getBusinessFields,
     getBusinessFieldBySlug
-} from '@/controllers/client/businessFieldController';
+} from '../../controllers/client/businessFieldController';
 
 const router = Router();
 

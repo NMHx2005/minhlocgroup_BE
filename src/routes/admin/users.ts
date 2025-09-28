@@ -14,9 +14,9 @@ import {
     getActivityLogs,
     getActivityLogsByUser,
     cleanupActivityLogs
-} from '@/controllers/admin/userController';
-import { authMiddleware } from '@/middleware/auth';
-import { adminMiddleware } from '@/middleware/admin';
+} from '../../controllers/admin/userController';
+import { authMiddleware } from '../../middleware/auth';
+import { adminMiddleware } from '../../middleware/admin';
 
 const router = Router();
 

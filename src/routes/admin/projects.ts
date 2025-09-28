@@ -9,10 +9,10 @@ import {
     deleteGalleryImage,
     addGalleryImageUrl,
     getProjectTypes
-} from '@/controllers/admin/projectController';
-import { authMiddleware } from '@/middleware/auth';
-import { adminMiddleware } from '@/middleware/admin';
-import { upload } from '@/middleware/upload';
+} from '../../controllers/admin/projectController';
+import { authMiddleware } from '../../middleware/auth';
+import { adminMiddleware } from '../../middleware/admin';
+import { upload } from '../../middleware/upload';
 
 const router = Router();
 

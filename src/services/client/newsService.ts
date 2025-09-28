@@ -1,4 +1,4 @@
-import { NewsArticle, NewsCategory } from '@/models/core';
+import { NewsArticle, NewsCategory } from '../../models/core';
 
 export interface NewsFilters {
     search?: string;

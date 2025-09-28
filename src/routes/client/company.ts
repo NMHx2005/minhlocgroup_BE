@@ -1,5 +1,5 @@
 import { Router } from 'express';
-import { getCompanyInfo } from '@/controllers/client/companyController';
+import { getCompanyInfo } from '../../controllers/client/companyController';
 
 const router = Router();
 

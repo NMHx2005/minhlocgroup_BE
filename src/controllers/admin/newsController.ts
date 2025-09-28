@@ -1,6 +1,6 @@
 import { Request, Response } from 'express';
-import { AuthRequest } from '@/middleware/auth';
-import { newsService } from '@/services/admin/newsService';
+import { AuthRequest } from '../../middleware/auth';
+import { newsService } from '../../services/admin/newsService';
 
 /**
  * Get all news articles with pagination and filters

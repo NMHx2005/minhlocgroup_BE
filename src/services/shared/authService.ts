@@ -1,8 +1,8 @@
 import * as jwt from 'jsonwebtoken';
 import bcrypt from 'bcryptjs';
-import { User } from '@/models/core';
+import { User } from '../../models/core';
 import { emailService } from './emailService';
-import { appConfig } from '@/config/app';
+import { appConfig } from '../../config/app';
 
 export interface LoginResult {
     user: any;

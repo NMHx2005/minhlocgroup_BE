@@ -1,4 +1,4 @@
-import { Project, User, ContactMessage, NewsletterSubscriber, AnalyticsData } from '@/models/core';
+import { Project, User, ContactMessage, NewsletterSubscriber, AnalyticsData } from '../../models/core';
 
 export interface DashboardOverview {
     totalProjects: number;

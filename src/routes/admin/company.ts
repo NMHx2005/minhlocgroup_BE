@@ -4,9 +4,9 @@ import {
     createOrUpdateCompanyInfo,
     deleteCompanyInfo,
     updateCompanyInfoSortOrder
-} from '@/controllers/admin/companyController';
-import { authMiddleware } from '@/middleware/auth';
-import { adminMiddleware } from '@/middleware/admin';
+} from '../../controllers/admin/companyController';
+import { authMiddleware } from '../../middleware/auth';
+import { adminMiddleware } from '../../middleware/admin';
 
 const router = Router();
 

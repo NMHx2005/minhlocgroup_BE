@@ -5,7 +5,7 @@ import {
     subscribeNewsletter,
     unsubscribeNewsletter,
     verifyNewsletterSubscription
-} from '@/controllers/client/contactController';
+} from '../../controllers/client/contactController';
 
 const router = Router();
 

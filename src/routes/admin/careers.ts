@@ -11,10 +11,10 @@ import {
     getCareersStatistics,
     getDepartments,
     submitJobApplication
-} from '@/controllers/admin/careersController';
-import { authMiddleware } from '@/middleware/auth';
-import { adminMiddleware } from '@/middleware/admin';
-import { contactLimiter } from '@/middleware/rateLimit';
+} from '../../controllers/admin/careersController';
+import { authMiddleware } from '../../middleware/auth';
+import { adminMiddleware } from '../../middleware/admin';
+import { contactLimiter } from '../../middleware/rateLimit';
 
 const router = Router();
 

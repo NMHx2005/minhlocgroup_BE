@@ -1,4 +1,4 @@
-import { AnalyticsData } from '@/models/core';
+import { AnalyticsData } from '../../models/core';
 
 export interface AnalyticsOverview {
     totalPageViews: number;

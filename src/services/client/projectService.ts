@@ -1,4 +1,4 @@
-import { Project, FloorPlan } from '@/models/core';
+import { Project, FloorPlan } from '../../models/core';
 
 export interface ProjectFilters {
     search?: string;

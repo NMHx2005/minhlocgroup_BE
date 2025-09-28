@@ -1,6 +1,6 @@
 import { Request, Response } from 'express';
-import { AuthRequest } from '@/middleware/auth';
-import { projectService } from '@/services/client/projectService';
+import { AuthRequest } from '../../middleware/auth';
+import { projectService } from '../../services/client/projectService';
 
 /**
  * Get all active projects for client

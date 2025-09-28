@@ -1,4 +1,4 @@
-import { BusinessField } from '@/models/core';
+import { BusinessField } from '../../models/core';
 
 export const businessFieldService = {
     /**

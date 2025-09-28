@@ -1,6 +1,6 @@
-import { FileUpload } from '@/models/core';
+import { FileUpload } from '../../models/core';
 import { v2 as cloudinary } from 'cloudinary';
-import { appConfig } from '@/config/app';
+import { appConfig } from '../../config/app';
 import mongoose from 'mongoose';
 
 export interface FileFilters {

@@ -1,6 +1,6 @@
 import { Request, Response } from 'express';
-import { AuthRequest } from '@/middleware/auth';
-import { productService } from '@/services/admin/productService';
+import { AuthRequest } from '../../middleware/auth';
+import { productService } from '../../services/admin/productService';
 
 /**
  * Get all ginseng products with pagination and filters

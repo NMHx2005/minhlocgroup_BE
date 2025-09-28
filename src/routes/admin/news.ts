@@ -14,9 +14,9 @@ import {
     createNewsTag,
     updateNewsTag,
     deleteNewsTag
-} from '@/controllers/admin/newsController';
-import { authMiddleware } from '@/middleware/auth';
-import { adminMiddleware } from '@/middleware/admin';
+} from '../../controllers/admin/newsController';
+import { authMiddleware } from '../../middleware/auth';
+import { adminMiddleware } from '../../middleware/admin';
 
 const router = Router();
 

@@ -1,6 +1,6 @@
 import { Request, Response } from 'express';
-import { AuthRequest } from '@/middleware/auth';
-import { fileService } from '@/services/shared/fileService';
+import { AuthRequest } from '../../middleware/auth';
+import { fileService } from '../../services/shared/fileService';
 
 /**
  * Upload image

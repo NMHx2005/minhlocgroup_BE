@@ -1,7 +1,7 @@
 import { Router } from 'express';
-import { getOverview, getRevenueChart, getProjectProgress, getTopPerformers, getRecentActivity } from '@/controllers/admin/dashboardController';
-import { authMiddleware } from '@/middleware/auth';
-import { adminMiddleware } from '@/middleware/admin';
+import { getOverview, getRevenueChart, getProjectProgress, getTopPerformers, getRecentActivity } from '../../controllers/admin/dashboardController';
+import { authMiddleware } from '../../middleware/auth';
+import { adminMiddleware } from '../../middleware/admin';
 
 const router = Router();
 

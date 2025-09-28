@@ -1,5 +1,5 @@
-import { SystemSetting, EmailTemplate } from '@/models/core';
-import { fileService } from '@/services/shared/fileService';
+import { SystemSetting, EmailTemplate } from '../../models/core';
+import { fileService } from '../shared/fileService';
 
 class SettingsService {
     /**

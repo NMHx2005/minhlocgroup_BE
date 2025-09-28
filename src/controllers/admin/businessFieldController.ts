@@ -1,6 +1,6 @@
 import { Request, Response } from 'express';
-import { AuthRequest } from '@/middleware/auth';
-import { businessFieldService } from '@/services/admin/businessFieldService';
+import { AuthRequest } from '../../middleware/auth';
+import { businessFieldService } from '../../services/admin/businessFieldService';
 
 /**
  * Get all business fields

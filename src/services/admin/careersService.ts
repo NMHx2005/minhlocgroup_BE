@@ -1,4 +1,4 @@
-import { JobPosition, JobApplication } from '@/models/core';
+import { JobPosition, JobApplication } from '../../models/core';
 import { Types } from 'mongoose';
 
 export const careersService = {

@@ -1,4 +1,4 @@
-import { ContactMessage, NewsletterSubscriber, ConsultationRequest } from '@/models/core';
+import { ContactMessage, NewsletterSubscriber, ConsultationRequest } from '../../models/core';
 
 class ContactService {
     /**

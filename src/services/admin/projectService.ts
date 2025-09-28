@@ -1,5 +1,5 @@
-import { Project, FloorPlan } from '@/models/core';
-import { fileService } from '@/services/shared/fileService';
+import { Project, FloorPlan } from '../../models/core';
+import { fileService } from '../shared/fileService';
 
 // Debug: Log when fileService is imported
 console.log('ProjectService - fileService imported:', !!fileService);

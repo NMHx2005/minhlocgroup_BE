@@ -1,6 +1,6 @@
 import { Request, Response } from 'express';
-import { AuthRequest } from '@/middleware/auth';
-import { companyService } from '@/services/admin/companyService';
+import { AuthRequest } from '../../middleware/auth';
+import { companyService } from '../../services/admin/companyService';
 
 /**
  * Get all company info sections

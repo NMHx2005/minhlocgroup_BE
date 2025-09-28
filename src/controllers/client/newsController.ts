@@ -1,6 +1,6 @@
 import { Request, Response } from 'express';
-import { AuthRequest } from '@/middleware/auth';
-import { newsService } from '@/services/client/newsService';
+import { AuthRequest } from '../../middleware/auth';
+import { newsService } from '../../services/client/newsService';
 
 /**
  * Get all published news articles for client

@@ -1,6 +1,6 @@
 import { Request, Response } from 'express';
-import { AuthRequest } from '@/middleware/auth';
-import { productService } from '@/services/client/productService';
+import { AuthRequest } from '../../middleware/auth';
+import { productService } from '../../services/client/productService';
 
 /**
  * Get all active products for client

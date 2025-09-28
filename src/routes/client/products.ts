@@ -9,7 +9,7 @@ import {
     searchProducts,
     getCategories,
     getOrigins
-} from '@/controllers/client/productController';
+} from '../../controllers/client/productController';
 
 const router = Router();
 

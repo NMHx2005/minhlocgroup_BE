@@ -1,6 +1,6 @@
 import { Request, Response } from 'express';
-import { AuthRequest } from '@/middleware/auth';
-import { settingsService } from '@/services/admin/settingsService';
+import { AuthRequest } from '../../middleware/auth';
+import { settingsService } from '../../services/admin/settingsService';
 
 /**
  * Get general settings

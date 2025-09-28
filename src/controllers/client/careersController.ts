@@ -1,6 +1,6 @@
 import { Request, Response } from 'express';
-import { AuthRequest } from '@/middleware/auth';
-import { careersService } from '@/services/client/careersService';
+import { AuthRequest } from '../../middleware/auth';
+import { careersService } from '../../services/client/careersService';
 
 /**
  * Get job positions for public display

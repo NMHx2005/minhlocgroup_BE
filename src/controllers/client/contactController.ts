@@ -1,6 +1,6 @@
 import { Request, Response } from 'express';
-import { AuthRequest } from '@/middleware/auth';
-import { contactService } from '@/services/client/contactService';
+import { AuthRequest } from '../../middleware/auth';
+import { contactService } from '../../services/client/contactService';
 
 /**
  * Create contact message
